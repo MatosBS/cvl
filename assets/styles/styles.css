@@ -4,7 +4,8 @@
   --text-color: #e0e0e0;
   --light-bg: #2a2a2a;
   --dark-bg: #1a1a1a;
-  --header-bg: #232323;
+  /* --header-bg: #232323; */
+  --header-bg: rgba(255, 255, 255, 0.95);
   --white: #fff;
   --card-bg: #2d2d2d;
 }
@@ -89,7 +90,7 @@ nav {
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?ixlib=rb-4.0.3') center/cover;
+    url(' ../images/background.jpg') center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
