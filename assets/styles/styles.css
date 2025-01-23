@@ -2,6 +2,7 @@
   --primary-color: #ff4d4d;
   --secondary-color: #333;
   --text-color: #e0e0e0;
+  --menu-btn-color: #1a1a1a;
   --light-bg: #2a2a2a;
   --dark-bg: #1a1a1a;
   /* --header-bg: #232323; */
@@ -83,7 +84,7 @@ nav {
   display: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: var(--text-color);
+  color: var(--menu-btn-color);
 }
 
 /* Hero Section */
