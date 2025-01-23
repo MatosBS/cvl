@@ -490,6 +490,16 @@ th {
   background: #ff3333;
 }
 
+.whatsapp-icon {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+}
+
+.whatsapp-icon img {
+  height: 60px;
+}
+
 /* Footer */
 footer {
   background: var(--secondary-color);
