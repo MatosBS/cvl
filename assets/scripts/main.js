@@ -34,7 +34,8 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // Horarios
-  fetch("./../assets/data/horarios.json")
+  // fetch("./../assets/data/horarios.json")
+  fetch("./assets/horarios.json")
     .then(response => response.json())
     .then(json => {
       json.forEach(horario => {

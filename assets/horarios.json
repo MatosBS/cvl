@@ -1,0 +1,110 @@
+[
+  {
+    "hora": "07:00",
+    "lunes": "CrossFit",
+    "martes": "CrossFit",
+    "miercoles": "CrossFit",
+    "jueves": "CrossFit",
+    "viernes": "CrossFit",
+    "sabado": "-"
+  },
+  {
+    "hora": "08:00",
+    "lunes": "CrossFit",
+    "martes": "CrossFit",
+    "miercoles": "CrossFit",
+    "jueves": "CrossFit",
+    "viernes": "CrossFit",
+    "sabado": "-"
+  },
+  {
+    "hora": "09:00",
+    "lunes": "CrossFit",
+    "martes": "CrossFit",
+    "miercoles": "CrossFit",
+    "jueves": "CrossFit",
+    "viernes": "CrossFit",
+    "sabado": "CrossFit"
+  },
+  {
+    "hora": "10:00",
+    "lunes": "-",
+    "martes": "-",
+    "miercoles": "-",
+    "jueves": "-",
+    "viernes": "-",
+    "sabado": "CrossFit"
+  },
+  {
+    "hora": "11:00",
+    "lunes": "-",
+    "martes": "-",
+    "miercoles": "-",
+    "jueves": "-",
+    "viernes": "-",
+    "sabado": "Funcional"
+  },
+  {
+    "hora": "12:00",
+    "lunes": "-",
+    "martes": "-",
+    "miercoles": "-",
+    "jueves": "-",
+    "viernes": "-",
+    "sabado": "CrossFit"
+  },
+  {
+    "hora": "16:00",
+    "lunes": "CrossFit",
+    "martes": "CrossFit",
+    "miercoles": "CrossFit",
+    "jueves": "CrossFit",
+    "viernes": "CrossFit",
+    "sabado": "-"
+  },
+  {
+    "hora": "17:00",
+    "lunes": "CrossFit",
+    "martes": "CrossFit",
+    "miercoles": "CrossFit",
+    "jueves": "CrossFit",
+    "viernes": "CrossFit",
+    "sabado": "-"
+  },
+  {
+    "hora": "18:00",
+    "lunes": "CrossFit / Funcional",
+    "martes": "CrossFit / Funcional",
+    "miercoles": "CrossFit / Funcional",
+    "jueves": "CrossFit / Funcional",
+    "viernes": "CrossFit / Funcional",
+    "sabado": "-"
+  },
+  {
+    "hora": "19:00",
+    "lunes": "CrossFit / Funcional",
+    "martes": "CrossFit / Funcional",
+    "miercoles": "CrossFit / Funcional",
+    "jueves": "CrossFit / Funcional",
+    "viernes": "CrossFit / Funcional",
+    "sabado": "-"
+  },
+  {
+    "hora": "20:00",
+    "lunes": "CrossFit / Funcional",
+    "martes": "CrossFit / Funcional",
+    "miercoles": "CrossFit / Funcional",
+    "jueves": "CrossFit / Funcional",
+    "viernes": "CrossFit / Funcional",
+    "sabado": "-"
+  },
+  {
+    "hora": "21:00",
+    "lunes": "CrossFit",
+    "martes": "CrossFit",
+    "miercoles": "CrossFit",
+    "jueves": "CrossFit",
+    "viernes": "CrossFit",
+    "sabado": "-"
+  }
+]
