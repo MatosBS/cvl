@@ -11,7 +11,7 @@ try {
         dateNow >= dateFrom &&
         dateNow <= dateTo){
         notificationElements.notificationBar.style.display = 'flex';
-        notificationElements.notificationMessage.textContent = notification[0].notification.message;
+        notificationElements.notificationMessage.innerHTML = notification[0].notification.message;
       }
     });
   });
