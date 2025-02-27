@@ -31,7 +31,7 @@
     </nav>
   </header>
 
-  <div class="notification-bar">
+  <div class="notification-bar" id="notification-bar">
     <span class="notification-content">🔥 FEBRERO PROMOCIÓN 2x1 EN TODAS LAS MEMBRESÍAS 🔥</span>
     <button class="close-notification">&times;</button>
   </div>
@@ -70,7 +70,16 @@
   <section id="horarios" class="schedule">
     <h2 data-aos="fade-up">Horarios</h2>
     <div class="schedule-container" data-aos="fade-up">
-      <table>
+      <select id="day-selector">
+        <option selected="true" style="display:none;">Seleccionar día</option>
+        <option value="Lunes">Lunes</option>
+        <option value="Martes">Martes</option>
+        <option value="Miércoles">Miércoles</option>
+        <option value="Jueves">Jueves</option>
+        <option value="Viernes">Viernes</option>
+        <option value="Sábado">Sábado</option>
+      </select>
+      <table id="schedule-table-desktop">
         <thead>
           <tr>
             <th>Hora</th>
@@ -82,9 +91,17 @@
             <th>Sábado</th>
           </tr>
         </thead>
-        <tbody id="schedule-body">
+        <tbody id="schedule-body-desktop">
         </tbody>
       </table>
+
+      <table id="schedule-table-mobile">
+        <thead>
+        </thead>
+        <tbody id="schedule-body-mobile">
+        </tbody>
+      </table>
+      
     </div>
   </section>
   <section id="entrenadores" class="trainers">
@@ -203,6 +220,7 @@
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="assets/scripts/main.js" type="module"></script>
+  <script src="assets/scripts/notification.js" type="module"></script>
 </body>
 
 </html>

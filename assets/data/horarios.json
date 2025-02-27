@@ -1,110 +1,228 @@
 [
   {
-    "hora": "07:00",
-    "lunes": "CrossFit",
-    "martes": "CrossFit",
-    "miercoles": "CrossFit",
-    "jueves": "CrossFit",
-    "viernes": "CrossFit",
-    "sabado": "-"
+    "day": "Lunes",
+    "activities": [
+      {
+        "hour": "07:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "08:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "09:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "16:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "17:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "18:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "19:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "20:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "21:00",
+        "activity": "CrossFit"
+      }
+    ]
   },
   {
-    "hora": "08:00",
-    "lunes": "CrossFit",
-    "martes": "CrossFit",
-    "miercoles": "CrossFit",
-    "jueves": "CrossFit",
-    "viernes": "CrossFit",
-    "sabado": "-"
+    "day": "Martes",
+    "activities": [
+      {
+        "hour": "07:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "08:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "09:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "16:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "17:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "18:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "19:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "20:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "21:00",
+        "activity": "CrossFit"
+      }
+    ]
   },
   {
-    "hora": "09:00",
-    "lunes": "CrossFit",
-    "martes": "CrossFit",
-    "miercoles": "CrossFit",
-    "jueves": "CrossFit",
-    "viernes": "CrossFit",
-    "sabado": "CrossFit"
+    "day": "Miércoles",
+    "activities": [
+      {
+        "hour": "07:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "08:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "09:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "16:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "17:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "18:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "19:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "20:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "21:00",
+        "activity": "CrossFit"
+      }
+    ]
   },
   {
-    "hora": "10:00",
-    "lunes": "-",
-    "martes": "-",
-    "miercoles": "-",
-    "jueves": "-",
-    "viernes": "-",
-    "sabado": "CrossFit"
+    "day": "Jueves",
+    "activities": [
+      {
+        "hour": "07:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "08:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "09:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "16:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "17:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "18:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "19:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "20:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "21:00",
+        "activity": "CrossFit"
+      }
+    ]
   },
   {
-    "hora": "11:00",
-    "lunes": "-",
-    "martes": "-",
-    "miercoles": "-",
-    "jueves": "-",
-    "viernes": "-",
-    "sabado": "Funcional"
+    "day": "Viernes",
+    "activities": [
+      {
+        "hour": "07:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "08:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "09:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "16:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "17:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "18:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "19:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "20:00",
+        "activity": "CrossFit / Funcional"
+      },
+      {
+        "hour": "21:00",
+        "activity": "CrossFit"
+      }
+    ]
   },
   {
-    "hora": "12:00",
-    "lunes": "-",
-    "martes": "-",
-    "miercoles": "-",
-    "jueves": "-",
-    "viernes": "-",
-    "sabado": "CrossFit"
-  },
-  {
-    "hora": "16:00",
-    "lunes": "CrossFit",
-    "martes": "CrossFit",
-    "miercoles": "CrossFit",
-    "jueves": "CrossFit",
-    "viernes": "CrossFit",
-    "sabado": "-"
-  },
-  {
-    "hora": "17:00",
-    "lunes": "CrossFit",
-    "martes": "CrossFit",
-    "miercoles": "CrossFit",
-    "jueves": "CrossFit",
-    "viernes": "CrossFit",
-    "sabado": "-"
-  },
-  {
-    "hora": "18:00",
-    "lunes": "CrossFit / Funcional",
-    "martes": "CrossFit / Funcional",
-    "miercoles": "CrossFit / Funcional",
-    "jueves": "CrossFit / Funcional",
-    "viernes": "CrossFit / Funcional",
-    "sabado": "-"
-  },
-  {
-    "hora": "19:00",
-    "lunes": "CrossFit / Funcional",
-    "martes": "CrossFit / Funcional",
-    "miercoles": "CrossFit / Funcional",
-    "jueves": "CrossFit / Funcional",
-    "viernes": "CrossFit / Funcional",
-    "sabado": "-"
-  },
-  {
-    "hora": "20:00",
-    "lunes": "CrossFit / Funcional",
-    "martes": "CrossFit / Funcional",
-    "miercoles": "CrossFit / Funcional",
-    "jueves": "CrossFit / Funcional",
-    "viernes": "CrossFit / Funcional",
-    "sabado": "-"
-  },
-  {
-    "hora": "21:00",
-    "lunes": "CrossFit",
-    "martes": "CrossFit",
-    "miercoles": "CrossFit",
-    "jueves": "CrossFit",
-    "viernes": "CrossFit",
-    "sabado": "-"
+    "day": "Sábado",
+    "activities": [
+      {
+        "hour": "09:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "10:00",
+        "activity": "CrossFit"
+      },
+      {
+        "hour": "11:00",
+        "activity": "Funcional"
+      },
+      {
+        "hour": "10:00",
+        "activity": "CrossFit"
+      }
+    ]
   }
 ]

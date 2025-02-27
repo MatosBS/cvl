@@ -135,7 +135,8 @@ nav {
   top: 80px;
   width: 100%;
   z-index: 999;
-  display: flex;
+  /* display: flex; */
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -330,6 +331,10 @@ nav {
 }
 
 /* Schedule Section */
+#day-selector {
+  display: none; /* Ocultamos el selector en pantallas grandes */
+}
+
 .schedule {
   padding: 5rem 5%;
   background: var(--light-bg);
@@ -512,6 +517,12 @@ footer {
 }
 
 /* Responsive Design */
+@media (min-width: 768px) {
+  table#schedule-table-mobile {
+    display: none; /* Ocultamos la tabla en móviles */
+  }
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -541,6 +552,25 @@ footer {
 
   .hero-content h1 {
     font-size: 3rem;
+  }
+
+  table#schedule-table-desktop {
+    display: none; /* Ocultamos la tabla en móviles */
+  }
+
+  table#schedule-table-mobile {
+    display: table; /* Ocultamos la tabla en móviles */
+  }
+
+  #day-selector {
+    display: block; /* Mostramos el selector en móviles */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  #schedule-container-mobile {
+    overflow-x: auto; /* Permite scroll horizontal si la tabla es grande */
   }
 
   .schedule-container {

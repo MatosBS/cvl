@@ -1,8 +1,7 @@
-import { templates } from './templates.js';
+import { horariosElements } from '../elements/dom.js';
+import horarios from './horarios.js';
 
-
-
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', async function () {
   // Inicializar AOS (Animate On Scroll)
   AOS.init({
     duration: 1000,
@@ -33,29 +32,33 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+
   // Horarios
-  // fetch("./../assets/data/horarios.json")
-  fetch("./assets/horarios.json")
-    .then(response => response.json())
-    .then(json => {
-      json.forEach(horario => {
-        const horarioContainer = document.createElement('tr')
-        // horarioContainer.className = 'products__items';
-        // horarioContainer.id = product.id
-        horarioContainer.innerHTML = templates.horarioItem(horario);
-        document.getElementById("schedule-body").append(horarioContainer)
-      });
-    });
+  const horariosArray = await horarios.fetchHorarios();
+  horarios.DisplayAllHours(document, horariosArray);
+
+  // var x = window.matchMedia("(max-width: 768px)")
+  // x.addEventListener("change", function() {
+  //   if (x.matches) {
+  //     console.log('CHICO')
+  //   } else {
+  //     console.log('GRANDE')
+  //   }
+  // });
+
+  horariosElements.daySelector.addEventListener('change', function() {
+    horarios.DisplayHoursByDay(document, horariosArray)
+  });
 
   // Formulario de contacto
-  const contactForm = document.querySelector('.contact-form');
-  if (contactForm) {
-    contactForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      alert('Gracias por tu mensaje. Nos pondremos en contacto contigo pronto.');
-      contactForm.reset();
-    });
-  }
+  // const contactForm = document.querySelector('.contact-form');
+  // if (contactForm) {
+  //   contactForm.addEventListener('submit', function (e) {
+  //     e.preventDefault();
+  //     alert('Gracias por tu mensaje. Nos pondremos en contacto contigo pronto.');
+  //     contactForm.reset();
+  //   });
+  // }
 
   // Cambiar estilo del header al hacer scroll
   const header = document.querySelector('header');
@@ -125,5 +128,5 @@ document.addEventListener('DOMContentLoaded', function () {
       // Adjust hero section padding
       document.querySelector('.hero').style.paddingTop = '0';
     });
-  }
+  };
 });
